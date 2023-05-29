@@ -110,14 +110,15 @@ if(ScrollTrigger.isTouch != 1){
         }
         })
     })
+
 }
 let circleNumber;
 console.log(window.innerWidth);
 if(window.innerWidth <= 1920 ){
-    circleNumber = 10;
+    circleNumber = 16;
 }
 else if(window.innerWidth  < 2400 ){
-    circleNumber = 14;
+    circleNumber = 18;
 }
 else if(window.innerWidth > 2400){
     circleNumber = 21;

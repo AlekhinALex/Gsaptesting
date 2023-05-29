@@ -93,16 +93,16 @@ body{
 .text-block__p__style{
     font-size: 2rem;
 }
-.text-block__h__style{
+.text-block__h .h__style{
     font-size: 3rem;
     line-height: 1.7;
 }
 .circle, .circle2 {
-   margin:4px;
+    margin:4px;
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
-    background-color: rgb(168, 23, 205);
+    background-color: #00FFFF;
   }
 .wrapper-style div{
     padding: 20px;
@@ -136,7 +136,7 @@ body{
     margin-bottom: calc(var(--index)*5);
 }
 .footer a{
-    
+
     text-decoration: none;
     color:palegreen;
 }
